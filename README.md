@@ -1,6 +1,6 @@
 # Easy-ssl
 
-1
+## 1-
 
 ```
 sudo apt-get install software-properties-common
@@ -10,10 +10,14 @@ sudo apt-get install certbot
 sudo certbot certonly --standalone -d YOURDOMAIN -d YOURDOMAIN
 ```
 
-2
+## 2-
 
-for renew
+when you want to renew
 
 ```
 sudo certbot renew
 ```
+
+## 3-
+
+now check easy-nginx
