@@ -16,7 +16,7 @@ sudo certbot certonly --standalone -d YOURDOMAIN -d YOURDOMAIN
 sudo certbot renew
 ```
 
-## 3- now check easy-nginx
+## 3- now check easy-nginx https://github.com/seatrips/easy-nginx
 
 ## 4- when you want to revoke your cert for a server
 
