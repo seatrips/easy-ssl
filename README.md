@@ -17,3 +17,9 @@ sudo certbot renew
 ```
 
 ## 3- now check easy-nginx
+
+## 4- when you want to revoke your cert for a server
+
+```
+sudo letsencrypt revoke -d example.com --cert-path /etc/letsencrypt/live/examplecom/cert.pem
+```
